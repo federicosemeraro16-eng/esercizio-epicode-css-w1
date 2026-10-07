@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* parametri generali della pagina */
+body{
+  width: 576px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-family: "Roboto,sans-serif";
+  
+}
+
+
+
+ /* header */
+header{
+  text-align: center;
+  width: 100%;
+  background-image: url("../img/premium_photo-1685086785636-2a1a0e5b591f.avif");
+  background-position: center;
+  background-size: 50%;
+  background-repeat: initial;
+  text-align: center;
+  color: #fff;
+  
+  
+}
+
+header div{
+  text-align: center;
+  width: 60%;
+}
+
+h1{
+  font-style: italic;
+}
+
+header p{
+  color: #F44A4A;
+}
+
+header li a{
+  color: hsl(67, 98%, 26%);
+  font-weight: 600;
+}
+
+/* main */
+
+
+section{
+  background-color: #f5f5f5 ;
+}
+section,
+section div{
+  width: 100%;
+  max-width: 576px;
+}
+
+.special-section{
+  background-color: #f3db7a;;
+}
+
+section h2{
+  color:  #1F3D7A;
+}
+
+.intro > p:first-of-type{
+  font-style: italic;
+
+}
+
+.lista > li:first-child{
+  font-weight: 600;
+}
+
+.lista > li:nth-child(odd){
+  background-color: #EDE7F6;
+}
+
+/* form */
+
+
+input,
+select{
+  height: 1.2rem;
+}
+input,
+select,
+textarea{
+  width: 50%;
+}
+
+
+
+
+
+
+#acceptTerms{
+  
+  width: 20px;
+}
+
+button{
+  width: 200px;
+  background-color: hsl(220, 60%, 30%);
+  color: #fff;
+}
+
+
+/* footer */
+
+footer{
+  width: 100vw;
+  max-width: 576px;
+  text-align: center;
+  background-color: #172136;
+  color: #fff;
+}
+
+/* Pseudo-classi */
+
+
+
+input:focus,
+select:focus,
+textarea:focus{
+  background-color: #232323;
+  color: #fff;
+}
+
+button:hover{
+  background-color: hsl(220, 60%, 45%)
+}
+
+
+
+
