@@ -17,7 +17,7 @@ header{
   width: 100%;
   background-image: url("../img/premium_photo-1685086785636-2a1a0e5b591f.avif");
   background-position: center;
-  background-size: 50%;
+  background-size: cover;
   background-repeat: initial;
   text-align: center;
   color: #fff;
